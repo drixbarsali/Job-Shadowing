@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"> <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts.js" ></script>
+
+
+
+    <style>
+        body { font-family: sans-serif; margin: 0; background: #fff; color: #777; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+
+        .product-img { width: 100%; height: auto; }
+
+        .fake-button {
+            background: #e2e8f0; padding: 10px 20px; display: inline-block; cursor: pointer; color: #fff;
+        }
+
+        *:focus { outline: none; }
+
+        #promo-box { background: #ffefc1; text-align: center; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="/home"><i class="fa-solid fa-home"></i></a>
+    </nav>
+</header>
+
+<div id="dynamic-banner"></div>
+
+<main class="container">
+    <h3>Dettagli Prodotto</h3>
+
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=2000"
+         alt=""
+         class="product-img"
+         loading="lazy">
+
+    <p>Queste scarpe migliorano le tue performance, ma questo sito no.</p>
+
+    <div class="fake-button" id="buy-btn">Acquista Ora</div>
+
+    <p id="feedback"></p>
+</main>
+
+
+</body>
+</html>
+
